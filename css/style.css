@@ -1,6 +1,7 @@
 /* Generale */
 body{
     background-color: rgb(234, 230, 202);
+    margin: 0;
 }
 /* Header */
 #logo {
@@ -14,13 +15,22 @@ p {
     display: inline;
     font-size: 50px;
     font-weight: bolder;
+    vertical-align: middle;
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    padding-right: 0;
+    vertical-align: middle;
+    height: 100px;
+    width: 100px;
 }
 
 /* Main */
-section {
+#push {
     border-radius: 5px;
     width: 50%;
-    height: 600px;
+    height: 20px;
     margin: 0 auto;
     background-color: white;
     padding: 10px 30px;
@@ -42,9 +52,20 @@ a {
     color: grey;
 }
 
+section {
+    border-radius: 5px;
+    width: 50%;
+    height: 600px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 10px 30px;
+}
+
 ul {
     margin: 20px 0;
     list-style-type: none;
+    list-style: none;
+    padding-left: 0;
 }
 
 li {
@@ -52,18 +73,19 @@ li {
 }
 
 .info {
-    padding: 2px;
+    font-size: 10px;
+    padding: 5px;
     margin: 5px;
     border: 1px solid;
-    border-radius: 10%;
+    border-radius: 20px;
     color: white;
 }
 
 .check {
     color: green;
     border: 1px solid;
-    height: 3px;
-    width: 3px;
+    height: 8px;
+    width: 6px;
     border-radius: 50%;
 }
 
