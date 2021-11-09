@@ -1,12 +1,28 @@
+/* Generale */
+*{
+    background-color: rgb(234, 230, 202);
+}
+/* Header */
 #logo {
     height: 100px;
-    background-color: rgb(234, 230, 202);
+    background-color: rgb(222, 222, 222);
     margin-bottom: 30px;
 }
-
+/* Main */
 section {
     width: 50%;
     height: 600px;
     margin: 0 auto;
-    background-color: rgb(234, 230, 202);
-}]
+    background-color: rgb(222, 222, 222);
+}
+
+#task {
+    margin-left: 20px;
+}
+
+a {
+    text-decoration: none;
+    border: 1px solid;
+    width: 10px;
+    height: 10px;
+}
