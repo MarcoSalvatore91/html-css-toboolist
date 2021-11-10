@@ -11,10 +11,10 @@ body{
     margin-bottom: 30px;
 }
 
-p {
+h1 {
     display: inline;
     font-size: 50px;
-    font-weight: bolder;
+    line-height: 100px;
     vertical-align: middle;
     font-family: 'Roboto', sans-serif;
 }
@@ -82,19 +82,28 @@ li {
 }
 
 .check {
+    display: inline-block;
     color: green;
     border: 1px solid;
-    height: 8px;
-    width: 6px;
+    height: 15px;
+    width: 15px;
     border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 10px;
+
 }
 
 .cross {
+    display: inline-block;
     color: red;
     border: 1px solid;
-    height: 3px;
-    width: 3px;
+    height: 15px;
+    width: 15px;
     border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 10px;
 }
 
 .blue {
